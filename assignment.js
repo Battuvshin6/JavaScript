@@ -1,0 +1,19 @@
+// let first= 1
+// let second= 5**2 
+// let third= 16
+// let fourth= 2
+// let answer=(first + second)-third*(first / fourth)
+// alert ("(1+5)-16(1/2)=" + answer)
+// let first=129
+// let second=7 
+// let answer=(first % second)
+// alert( "129%7=" + answer)
+let first = prompt ("enter first number: ");
+let second = prompt ("enter second number: ");
+let third = parseInt (first)
+let fourth = parseInt (second)
+let answer = (third + fourth)
+let multiply = (third * fourth)
+let divide = (third / fourth)
+let substract = (third - fourth)
+alert ( first + "+" + second + "=" + answer + "\n" + first + "n*" + second + "=" + multiply + "\n" + first + "/" + second + "=" + divide + "\n" + first + "-" + second + "=" + substract)
